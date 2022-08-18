@@ -1,0 +1,13 @@
+@import url(./css/reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url(./css/header.css);
+@import url(./css/main.css);
+@import url(./css/utilidades.css);
+html {
+  background: url(./img/bgbg.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}

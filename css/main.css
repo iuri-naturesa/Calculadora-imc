@@ -1,0 +1,74 @@
+main {
+  display: grid;
+}
+.blocos {
+  display: flex;
+}
+.calculadora-bg {
+  padding: 50px 50px 100px;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.dados {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+.dados-text {
+  justify-self: center;
+}
+.submit-cont {
+  display: flex;
+  justify-content: center;
+}
+.submit {
+  display: flex;
+  width: 80%;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.resultado-bg {
+  background: rgb(248, 230, 203);
+  box-shadow: 10px 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 1;
+  padding: 20px 40px;
+  display: grid;
+}
+
+.resultado-imc h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.resultado-imc h3 {
+  padding-top: 10px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.resultado-info {
+  font-size: 1.3rem;
+  align-self: center;
+  padding: 10px;
+}
+.resultado-info h2 {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.txt-ativo {
+  border: solid;
+}
